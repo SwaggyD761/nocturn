@@ -1,0 +1,535 @@
+.library,
+.library * {
+  box-sizing: border-box;
+}
+.library {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 947px;
+  overflow: hidden;
+}
+.banner-ads {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 513px;
+  height: 77px;
+  position: absolute;
+  left: 927px;
+  top: 0px;
+  overflow: hidden;
+}
+.custom-notification-carousel {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 486px;
+  height: 77px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  overflow: hidden;
+}
+.company-title {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
+.nav-bar {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-icon {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 1363px;
+  top: 0px;
+  overflow: hidden;
+}
+.nav-links {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 482px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  overflow: hidden;
+}
+.home-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.library-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 123px;
+  top: 11px;
+  overflow: hidden;
+}
+.reader-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 236px;
+  top: 11px;
+  overflow: hidden;
+}
+.blog-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 348px;
+  top: 11px;
+  overflow: hidden;
+}
+.nav-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
+.body-container {
+  width: 1364px;
+  height: 794px;
+  position: absolute;
+  left: 38px;
+  top: 121px;
+}
+.table-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 408px;
+  position: absolute;
+  left: 889px;
+  top: 152px;
+  overflow: hidden;
+}
+.table-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.table-title-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 118px;
+  height: 22px;
+  position: absolute;
+  left: 347px;
+  top: 10px;
+  overflow: hidden;
+}
+.table-display-controls {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 285px;
+  height: 29px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  overflow: hidden;
+}
+.books {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 84px;
+  height: 17px;
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  overflow: hidden;
+}
+.current-reads {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 17px;
+  position: absolute;
+  left: 99px;
+  top: 6px;
+  overflow: hidden;
+}
+.notes {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 84px;
+  height: 17px;
+  position: absolute;
+  left: 192px;
+  top: 6px;
+  overflow: hidden;
+}
+.table-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 467px;
+  height: 363px;
+  position: absolute;
+  left: 4px;
+  top: 45px;
+  overflow: hidden;
+}
+.pop-up-ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 470px;
+  height: 221px;
+  position: absolute;
+  left: 889px;
+  top: 573px;
+  overflow: hidden;
+}
+.ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 470px;
+  height: 196px;
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  overflow: hidden;
+}
+.library-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 857px;
+  height: 776px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.library-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 857px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.title {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 316px;
+  height: 22px;
+  position: absolute;
+  left: 534px;
+  top: 11px;
+  overflow: hidden;
+}
+.pdf-catagories {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 285px;
+  height: 29px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  overflow: hidden;
+}
+.all {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 84px;
+  height: 17px;
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  overflow: hidden;
+}
+.recent {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 17px;
+  position: absolute;
+  left: 99px;
+  top: 6px;
+  overflow: hidden;
+}
+.frequent {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 84px;
+  height: 17px;
+  position: absolute;
+  left: 192px;
+  top: 6px;
+  overflow: hidden;
+}
+.library-item {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 33px;
+  top: 66px;
+  overflow: hidden;
+}
+.book-image-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 155px;
+  height: 122px;
+  position: absolute;
+  left: 41px;
+  top: 11px;
+  overflow: hidden;
+}
+.isnb {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 16px;
+  position: absolute;
+  left: 24px;
+  top: 183px;
+  overflow: hidden;
+}
+.author {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 16px;
+  position: absolute;
+  left: 24px;
+  top: 163px;
+  overflow: hidden;
+}
+.title2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 15px;
+  position: absolute;
+  left: 24px;
+  top: 144px;
+  overflow: hidden;
+}
+.library-item2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 310px;
+  top: 66px;
+  overflow: hidden;
+}
+.library-item3 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 310px;
+  top: 300px;
+  overflow: hidden;
+}
+.library-item4 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 310px;
+  top: 534px;
+  overflow: hidden;
+}
+.library-item5 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 33px;
+  top: 534px;
+  overflow: hidden;
+}
+.library-item6 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 46px;
+  top: 300px;
+  overflow: hidden;
+}
+.library-item7 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 574px;
+  top: 300px;
+  overflow: hidden;
+}
+.library-item8 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 587px;
+  top: 66px;
+  overflow: hidden;
+}
+.library-item9 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 210px;
+  position: absolute;
+  left: 587px;
+  top: 534px;
+  overflow: hidden;
+}
+.profile-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 125px;
+  position: absolute;
+  left: 889px;
+  top: 11px;
+  overflow: hidden;
+}
+.profile-imag-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 127px;
+  height: 105px;
+  position: absolute;
+  left: 341px;
+  top: 11px;
+  overflow: hidden;
+}
+.settings-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  overflow: hidden;
+}
+.storage-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 43px;
+  overflow: hidden;
+}
+.quick-information-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 288px;
+  height: 105px;
+  position: absolute;
+  left: 47px;
+  top: 11px;
+  overflow: hidden;
+}
