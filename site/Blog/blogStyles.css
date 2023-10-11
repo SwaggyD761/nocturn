@@ -1,0 +1,311 @@
+.blog,
+.blog * {
+  box-sizing: border-box;
+}
+.blog {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.blog-footer {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 278px;
+  position: absolute;
+  left: 0px;
+  top: 746px;
+  overflow: hidden;
+}
+.quick-info-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 719px;
+  height: 278px;
+  position: absolute;
+  left: 721px;
+  top: 0px;
+  overflow: hidden;
+}
+.company-logo-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 394px;
+  height: 177px;
+  position: absolute;
+  left: 148px;
+  top: 16px;
+  overflow: hidden;
+}
+.company-title-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 295px;
+  height: 29px;
+  position: absolute;
+  left: 197px;
+  top: 200px;
+  overflow: hidden;
+}
+.email-and-location-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 295px;
+  height: 29px;
+  position: absolute;
+  left: 197px;
+  top: 234px;
+  overflow: hidden;
+}
+.contact-us {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 698px;
+  height: 269px;
+  position: absolute;
+  left: 9px;
+  top: 4px;
+  overflow: hidden;
+}
+.submit {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 121px;
+  height: 35px;
+  position: absolute;
+  left: 567px;
+  top: 220px;
+  overflow: hidden;
+}
+.report-bug {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 121px;
+  height: 35px;
+  position: absolute;
+  left: 567px;
+  top: 61px;
+  overflow: hidden;
+}
+.clear {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 121px;
+  height: 35px;
+  position: absolute;
+  left: 567px;
+  top: 112px;
+  overflow: hidden;
+}
+.messge {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 541px;
+  height: 184px;
+  position: absolute;
+  left: 8px;
+  top: 71px;
+  overflow: hidden;
+}
+.contact-us-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 218px;
+  height: 29px;
+  position: absolute;
+  left: 8px;
+  top: 7px;
+  overflow: hidden;
+}
+.email-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 295px;
+  height: 29px;
+  position: absolute;
+  left: 254px;
+  top: 7px;
+  overflow: hidden;
+}
+.topic-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 207px;
+  height: 17px;
+  position: absolute;
+  left: 14px;
+  top: 41px;
+  overflow: hidden;
+}
+.body-container {
+  width: 1306px;
+  height: 555px;
+  position: absolute;
+  left: 44px;
+  top: 145px;
+}
+.pop-up-ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 407px;
+  height: 258px;
+  position: absolute;
+  left: 0px;
+  top: 297px;
+  overflow: hidden;
+}
+.ad-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 407px;
+  height: 223px;
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  overflow: hidden;
+}
+.close-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 30px;
+  height: 28px;
+  position: absolute;
+  left: 374px;
+  top: 4px;
+  overflow: hidden;
+}
+.blog2 {
+  width: 1258px;
+  height: 555px;
+  position: absolute;
+  left: 48px;
+  top: 0px;
+}
+.blog-image {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 629px;
+  height: 555px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.blog-text {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 629px;
+  height: 553px;
+  position: absolute;
+  left: 629px;
+  top: 0px;
+  overflow: hidden;
+}
+.nav-bar {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-icon {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 1363px;
+  top: 0px;
+  overflow: hidden;
+}
+.nav-links {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 482px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  overflow: hidden;
+}
+.home-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.library-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 123px;
+  top: 11px;
+  overflow: hidden;
+}
+.reader-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 236px;
+  top: 11px;
+  overflow: hidden;
+}
+.blog-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 348px;
+  top: 11px;
+  overflow: hidden;
+}
+.nav-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
