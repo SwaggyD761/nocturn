@@ -1,0 +1,588 @@
+.pay-gate,
+.pay-gate * {
+  box-sizing: border-box;
+}
+.pay-gate {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.cart-check-out {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 503px;
+  height: 690px;
+  position: absolute;
+  left: 79px;
+  top: 167px;
+  overflow: hidden;
+}
+.check-out-item {
+  width: 476px;
+  height: 87px;
+  position: absolute;
+  left: 14px;
+  top: 54px;
+}
+.image {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 82px;
+  height: 87px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.index {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 70px;
+  height: 43px;
+  position: absolute;
+  left: 89px;
+  top: 0px;
+  overflow: hidden;
+}
+.title {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 248px;
+  height: 43px;
+  position: absolute;
+  left: 168px;
+  top: 0px;
+  overflow: hidden;
+}
+.print-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 53px;
+  height: 43px;
+  position: absolute;
+  left: 423px;
+  top: 0px;
+  overflow: hidden;
+}
+.price {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 127px;
+  height: 36px;
+  position: absolute;
+  left: 289px;
+  top: 51px;
+  overflow: hidden;
+}
+.isnb {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 191px;
+  height: 36px;
+  position: absolute;
+  left: 92px;
+  top: 51px;
+  overflow: hidden;
+}
+.header-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 503px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.register-card {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 661px;
+  height: 341px;
+  position: absolute;
+  left: 702px;
+  top: 167px;
+  overflow: hidden;
+}
+.header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 449px;
+  height: 42px;
+  position: absolute;
+  left: 106px;
+  top: 0px;
+  overflow: hidden;
+}
+.register-card-form {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 612px;
+  height: 250px;
+  position: absolute;
+  left: 25px;
+  top: 62px;
+  overflow: hidden;
+}
+.bank-name-entry {
+  width: 510px;
+  height: 26px;
+  position: absolute;
+  left: 51px;
+  top: 16px;
+}
+.bank-name-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.bank-name-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 301px;
+  height: 25px;
+  position: absolute;
+  left: 209px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-holders-entry {
+  width: 510px;
+  height: 26px;
+  position: absolute;
+  left: 51px;
+  top: 50px;
+}
+.account-holder-details-lable {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.account-holder-details-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 301px;
+  height: 25px;
+  position: absolute;
+  left: 209px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-number-entry {
+  width: 510px;
+  height: 26px;
+  position: absolute;
+  left: 51px;
+  top: 84px;
+}
+.account-number-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.account-number-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 301px;
+  height: 25px;
+  position: absolute;
+  left: 209px;
+  top: 0px;
+  overflow: hidden;
+}
+.card-number-entry {
+  width: 510px;
+  height: 26px;
+  position: absolute;
+  left: 51px;
+  top: 114px;
+}
+.card-number-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.card-number-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 301px;
+  height: 25px;
+  position: absolute;
+  left: 209px;
+  top: 0px;
+  overflow: hidden;
+}
+.cvv-entry {
+  width: 510px;
+  height: 26px;
+  position: absolute;
+  left: 51px;
+  top: 148px;
+}
+.cvv-code-lable {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.cvv-code-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 301px;
+  height: 25px;
+  position: absolute;
+  left: 209px;
+  top: 0px;
+  overflow: hidden;
+}
+.branch-code-entry {
+  width: 510px;
+  height: 26px;
+  position: absolute;
+  left: 51px;
+  top: 178px;
+}
+.branch-code-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.branch-code-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 301px;
+  height: 25px;
+  position: absolute;
+  left: 209px;
+  top: 0px;
+  overflow: hidden;
+}
+.submit-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 25px;
+  position: absolute;
+  left: 392px;
+  top: 213px;
+  overflow: hidden;
+}
+.pop-up-ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 468px;
+  height: 307px;
+  position: absolute;
+  left: 895px;
+  top: 550px;
+  overflow: hidden;
+}
+.ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 468px;
+  height: 258px;
+  position: absolute;
+  left: 0px;
+  top: 37px;
+  overflow: hidden;
+}
+.close-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 432px;
+  top: 1px;
+  overflow: hidden;
+}
+.check-out-confirmation {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 276px;
+  height: 307px;
+  position: absolute;
+  left: 582px;
+  top: 550px;
+  overflow: hidden;
+}
+.header2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 177px;
+  height: 30px;
+  position: absolute;
+  left: 49px;
+  top: 8px;
+  overflow: hidden;
+}
+.total {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 236px;
+  height: 21px;
+  position: absolute;
+  left: 20px;
+  top: 49px;
+  overflow: hidden;
+}
+.registered-card-drop-down {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 229px;
+  height: 24px;
+  position: absolute;
+  left: 23px;
+  top: 81px;
+  overflow: hidden;
+}
+.order-number {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 229px;
+  height: 24px;
+  position: absolute;
+  left: 23px;
+  top: 112px;
+  overflow: hidden;
+}
+.cart-number {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 229px;
+  height: 41px;
+  position: absolute;
+  left: 23px;
+  top: 143px;
+  overflow: hidden;
+}
+.delivery-address-textbox {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 229px;
+  height: 62px;
+  position: absolute;
+  left: 23px;
+  top: 194px;
+  overflow: hidden;
+}
+.clear-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 114px;
+  height: 26px;
+  position: absolute;
+  left: 14px;
+  top: 266px;
+  overflow: hidden;
+}
+.confirm-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 114px;
+  height: 26px;
+  position: absolute;
+  left: 148px;
+  top: 266px;
+  overflow: hidden;
+}
+.nav-bar {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-icon {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 1363px;
+  top: 0px;
+  overflow: hidden;
+}
+.nav-links {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 482px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  overflow: hidden;
+}
+.home-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.library-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 123px;
+  top: 11px;
+  overflow: hidden;
+}
+.reader-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 236px;
+  top: 11px;
+  overflow: hidden;
+}
+.blog-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 348px;
+  top: 11px;
+  overflow: hidden;
+}
+.nav-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
+.footer {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 947px;
+  overflow: hidden;
+}
+.banner-ads {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 513px;
+  height: 77px;
+  position: absolute;
+  left: 927px;
+  top: 0px;
+  overflow: hidden;
+}
+.custom-notification-carousel {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 486px;
+  height: 77px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  overflow: hidden;
+}
+.company-title {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
