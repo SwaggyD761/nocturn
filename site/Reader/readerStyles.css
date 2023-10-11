@@ -1,0 +1,413 @@
+.body-container,
+.body-container * {
+  box-sizing: border-box;
+}
+.body-container {
+  width: 1363px;
+  height: 803px;
+  position: relative;
+}
+.pop-up-ad {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 539px;
+  height: 184px;
+  position: absolute;
+  left: 803px;
+  top: 619px;
+  overflow: hidden;
+}
+.header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 539px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  overflow: hidden;
+}
+.close-button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 514px;
+  top: 25px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  overflow: hidden;
+}
+.frame-100 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  overflow: hidden;
+}
+.dsiplay {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0px 0px 0px;
+  width: 536px;
+  height: 162px;
+  position: absolute;
+  left: 3px;
+  top: 22px;
+  overflow: hidden;
+}
+.text-box {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 765px;
+  height: 148px;
+  position: absolute;
+  left: 0px;
+  top: 646px;
+  overflow: hidden;
+}
+.tool-bar {
+  background: #ffffff;
+  width: 61px;
+  height: 148px;
+  position: absolute;
+  left: 704px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.clear-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 48px;
+  height: 47px;
+  position: absolute;
+  left: 7px;
+  top: 16px;
+  overflow: hidden;
+}
+.submit-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 48px;
+  height: 47px;
+  position: absolute;
+  left: 7px;
+  top: 85px;
+  overflow: hidden;
+}
+.text-display {
+  width: 703px;
+  height: 147px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  overflow: hidden;
+}
+.pdf-reader {
+  width: 865px;
+  height: 619px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.reader-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 765px;
+  height: 619px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.text-display2 {
+  width: 764px;
+  height: 560px;
+  position: absolute;
+  left: 1px;
+  top: 59px;
+  overflow: hidden;
+}
+.reader-header {
+  width: 765px;
+  height: 85px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.compile-notes {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 735px;
+  top: 55px;
+  overflow: hidden;
+}
+.header2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 765px;
+  height: 55px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.text-title-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 255px;
+  height: 50px;
+  position: absolute;
+  left: 255px;
+  top: 3px;
+  overflow: hidden;
+}
+.dropdown-menut {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 164px;
+  height: 50px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  overflow: hidden;
+}
+.reader-controls {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 100px;
+  height: 315px;
+  position: absolute;
+  left: 765px;
+  top: 286px;
+  overflow: hidden;
+}
+.bookmark-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  overflow: hidden;
+}
+.highlight-text-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 76px;
+  overflow: hidden;
+}
+.add-notes-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 133px;
+  overflow: hidden;
+}
+.read-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 190px;
+  overflow: hidden;
+}
+.save-changes-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 247px;
+  overflow: hidden;
+}
+.place-holder {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 16px;
+  position: absolute;
+  left: 888px;
+  top: 592px;
+  overflow: hidden;
+}
+.profile-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 125px;
+  position: absolute;
+  left: 888px;
+  top: 4px;
+  overflow: hidden;
+}
+.profile-imag-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 127px;
+  height: 105px;
+  position: absolute;
+  left: 341px;
+  top: 11px;
+  overflow: hidden;
+}
+.settings-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  overflow: hidden;
+}
+.storage-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 43px;
+  overflow: hidden;
+}
+.quick-information-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 288px;
+  height: 105px;
+  position: absolute;
+  left: 47px;
+  top: 11px;
+  overflow: hidden;
+}
+.table-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 447px;
+  position: absolute;
+  left: 888px;
+  top: 145px;
+  overflow: hidden;
+}
+.table-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.table-title-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 118px;
+  height: 22px;
+  position: absolute;
+  left: 347px;
+  top: 10px;
+  overflow: hidden;
+}
+.table-display-controls {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 285px;
+  height: 29px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  overflow: hidden;
+}
+.notes {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 84px;
+  height: 17px;
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  overflow: hidden;
+}
+.note-groups {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 85px;
+  height: 17px;
+  position: absolute;
+  left: 99px;
+  top: 6px;
+  overflow: hidden;
+}
+.notes2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 84px;
+  height: 17px;
+  position: absolute;
+  left: 192px;
+  top: 6px;
+  overflow: hidden;
+}
+.table-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 467px;
+  height: 402px;
+  position: absolute;
+  left: 4px;
+  top: 45px;
+  overflow: hidden;
+}
