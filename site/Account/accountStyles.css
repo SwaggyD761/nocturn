@@ -1,0 +1,516 @@
+.account,
+.account * {
+  box-sizing: border-box;
+}
+.account {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.body-container {
+  width: 1352px;
+  height: 788px;
+  position: absolute;
+  left: 50px;
+  top: 131px;
+}
+.stats {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 370px;
+  height: 222px;
+  position: absolute;
+  left: 752px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-28 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 324px;
+  height: 32px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.frame-29 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 350px;
+  height: 160px;
+  position: absolute;
+  left: 10px;
+  top: 51px;
+  overflow: hidden;
+}
+.quick-user-info {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 629px;
+  height: 222px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.reading-and-note-stats {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 247px;
+  height: 188px;
+  position: absolute;
+  left: 19px;
+  top: 16px;
+  overflow: hidden;
+}
+.current-notes {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 324px;
+  height: 84px;
+  position: absolute;
+  left: 289px;
+  top: 17px;
+  overflow: hidden;
+}
+.current-openbooks {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 324px;
+  height: 84px;
+  position: absolute;
+  left: 289px;
+  top: 120px;
+  overflow: hidden;
+}
+.account-settings {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 629px;
+  height: 222px;
+  position: absolute;
+  left: 3px;
+  top: 269px;
+  overflow: hidden;
+}
+.header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 247px;
+  height: 33px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.settings-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 602px;
+  height: 170px;
+  position: absolute;
+  left: 14px;
+  top: 40px;
+  overflow: hidden;
+}
+.app-settings {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 629px;
+  height: 249px;
+  position: absolute;
+  left: 3px;
+  top: 539px;
+  overflow: hidden;
+}
+.header2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 602px;
+  height: 36px;
+  position: absolute;
+  left: 14px;
+  top: 0px;
+  overflow: hidden;
+}
+.settings-display2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 602px;
+  height: 196px;
+  position: absolute;
+  left: 14px;
+  top: 53px;
+  overflow: hidden;
+}
+.table-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 653px;
+  height: 511px;
+  position: absolute;
+  left: 699px;
+  top: 277px;
+  overflow: hidden;
+}
+.table-controls {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 482px;
+  height: 38px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.books {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.notes {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 123px;
+  top: 11px;
+  overflow: hidden;
+}
+.recent {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 236px;
+  top: 11px;
+  overflow: hidden;
+}
+.favourites {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 348px;
+  top: 11px;
+  overflow: hidden;
+}
+.table-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 629px;
+  height: 425px;
+  position: absolute;
+  left: 12px;
+  top: 46px;
+  overflow: hidden;
+}
+.frame-13 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 631px;
+  height: 27px;
+  position: absolute;
+  left: -2px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-21 {
+  width: 617px;
+  height: 33px;
+  position: absolute;
+  left: 6px;
+  top: 32px;
+}
+.frame-15 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 93px;
+  height: 33px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-17 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 93px;
+  height: 33px;
+  position: absolute;
+  left: 327px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-18 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 93px;
+  height: 33px;
+  position: absolute;
+  left: 428px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-19 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 38px;
+  height: 33px;
+  position: absolute;
+  left: 579px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-20 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 40px;
+  height: 33px;
+  position: absolute;
+  left: 529px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-16 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 215px;
+  height: 33px;
+  position: absolute;
+  left: 104px;
+  top: 0px;
+  overflow: hidden;
+}
+.profile {
+  width: 189px;
+  height: 222px;
+  position: absolute;
+  left: 1163px;
+  top: 0px;
+}
+.frame-9 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 189px;
+  height: 163px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-22 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 174px;
+  height: 146px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: hidden;
+}
+.frame-23 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 188px;
+  height: 15px;
+  position: absolute;
+  left: 1px;
+  top: 169px;
+  overflow: hidden;
+}
+.frame-24 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 188px;
+  height: 13px;
+  position: absolute;
+  left: 1px;
+  top: 190px;
+  overflow: hidden;
+}
+.frame-25 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 77px;
+  height: 13px;
+  position: absolute;
+  left: 112px;
+  top: 209px;
+  overflow: hidden;
+}
+.nav-bar {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-icon {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 1363px;
+  top: 0px;
+  overflow: hidden;
+}
+.nav-links {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 482px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  overflow: hidden;
+}
+.home-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.library-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 123px;
+  top: 11px;
+  overflow: hidden;
+}
+.reader-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 236px;
+  top: 11px;
+  overflow: hidden;
+}
+.blog-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 348px;
+  top: 11px;
+  overflow: hidden;
+}
+.nav-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
+.footer {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 947px;
+  overflow: hidden;
+}
+.banner-ads {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 513px;
+  height: 77px;
+  position: absolute;
+  left: 927px;
+  top: 0px;
+  overflow: hidden;
+}
+.custom-notification-carousel {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 486px;
+  height: 76px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  overflow: hidden;
+}
+.company-title {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
