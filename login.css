@@ -1,0 +1,241 @@
+.login,
+.login * {
+  box-sizing: border-box;
+}
+.login {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.login-form-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 751px;
+  height: 502px;
+  position: absolute;
+  left: 345px;
+  top: 261px;
+  overflow: hidden;
+}
+.submit-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 204px;
+  height: 58px;
+  position: absolute;
+  left: 453px;
+  top: 418px;
+  overflow: hidden;
+}
+.register-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 204px;
+  height: 58px;
+  position: absolute;
+  left: 94px;
+  top: 418px;
+  overflow: hidden;
+}
+.login-form {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 700px;
+  height: 378px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  overflow: hidden;
+}
+.form-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 281px;
+  height: 42px;
+  position: absolute;
+  left: 207px;
+  top: 15px;
+  overflow: hidden;
+}
+.sign-in-with-google {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 248px;
+  height: 42px;
+  position: absolute;
+  left: 89px;
+  top: 296px;
+  overflow: hidden;
+}
+.forgot-password {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 248px;
+  height: 42px;
+  position: absolute;
+  left: 357px;
+  top: 296px;
+  overflow: hidden;
+}
+.email-entry {
+  width: 565px;
+  height: 42px;
+  position: absolute;
+  left: 68px;
+  top: 155px;
+}
+.email-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 317px;
+  height: 42px;
+  position: absolute;
+  left: 248px;
+  top: 0px;
+  overflow: hidden;
+}
+.email-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 199px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.password-entry {
+  width: 565px;
+  height: 42px;
+  position: absolute;
+  left: 68px;
+  top: 211px;
+}
+.password-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 317px;
+  height: 42px;
+  position: absolute;
+  left: 248px;
+  top: 0px;
+  overflow: hidden;
+}
+.password-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 199px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.username-entry {
+  width: 565px;
+  height: 42px;
+  position: absolute;
+  left: 68px;
+  top: 99px;
+}
+.username-input {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 317px;
+  height: 42px;
+  position: absolute;
+  left: 248px;
+  top: 0px;
+  overflow: hidden;
+}
+.username-label {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 199px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.login-option {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 281px;
+  height: 78px;
+  position: absolute;
+  left: 1159px;
+  top: 0px;
+  overflow: hidden;
+}
+.login-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 751px;
+  height: 78px;
+  position: absolute;
+  left: 345px;
+  top: 0px;
+  overflow: hidden;
+}
+.footer {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 947px;
+  overflow: hidden;
+}
+.banner-ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 501px;
+  height: 77px;
+  position: absolute;
+  left: 939px;
+  top: 0px;
+  overflow: hidden;
+}
+.baner-ad-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 501px;
+  height: 76px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.company-title {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
