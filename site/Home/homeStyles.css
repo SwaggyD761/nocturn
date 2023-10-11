@@ -1,12 +1,277 @@
-  .register,
-.register * {
+.home,
+.home * {
   box-sizing: border-box;
 }
-.register {
+.home {
   background: #ffffff;
   width: 1440px;
   height: 1024px;
   position: relative;
+  overflow: hidden;
+}
+.nav-bar {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 77px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.account-icon {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 1363px;
+  top: 0px;
+  overflow: hidden;
+}
+.nav-links {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 482px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  overflow: hidden;
+}
+.home-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+}
+.library-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 123px;
+  top: 11px;
+  overflow: hidden;
+}
+.reader-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 236px;
+  top: 11px;
+  overflow: hidden;
+}
+.blog-link-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 103px;
+  height: 17px;
+  position: absolute;
+  left: 348px;
+  top: 11px;
+  overflow: hidden;
+}
+.nav-header {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 349px;
+  height: 46px;
+  position: absolute;
+  left: 546px;
+  top: 15px;
+  overflow: hidden;
+}
+.body-contaiber {
+  width: 1346px;
+  height: 668px;
+  position: absolute;
+  left: 56px;
+  top: 122px;
+}
+.profile-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 475px;
+  height: 125px;
+  position: absolute;
+  left: 871px;
+  top: 0px;
+  overflow: hidden;
+}
+.profile-imag-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 127px;
+  height: 105px;
+  position: absolute;
+  left: 341px;
+  top: 11px;
+  overflow: hidden;
+}
+.settings-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  overflow: hidden;
+}
+.storage-button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 43px;
+  overflow: hidden;
+}
+.quick-information-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 288px;
+  height: 105px;
+  position: absolute;
+  left: 47px;
+  top: 11px;
+  overflow: hidden;
+}
+.notfications-display {
+  border-radius: 0px 0px 0px 177px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 463px;
+  height: 408px;
+  position: absolute;
+  left: 883px;
+  top: 147px;
+  overflow: hidden;
+}
+.hearder {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 463px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.storage-indicator {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 108px;
+  height: 22px;
+  position: absolute;
+  left: 347px;
+  top: 10px;
+  overflow: hidden;
+}
+.notifications-heading {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 285px;
+  height: 29px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  overflow: hidden;
+}
+.notification-display {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 406px;
+  height: 238px;
+  position: absolute;
+  left: 45px;
+  top: 64px;
+  overflow: hidden;
+}
+.banner-ads-display {
+  width: 309px;
+  height: 52px;
+  position: absolute;
+  left: 142px;
+  top: 330px;
+  overflow: hidden;
+}
+.ad-and-logo-carousel {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 479px;
+  height: 383px;
+  position: absolute;
+  left: 363px;
+  top: 285px;
+  overflow: hidden;
+}
+.quick-acces-buttons {
+  width: 124px;
+  height: 379px;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+}
+.reader-button-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 124px;
+  height: 103px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.library-button-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 124px;
+  height: 103px;
+  position: absolute;
+  left: 0px;
+  top: 138px;
+  overflow: hidden;
+}
+.blog-button-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 124px;
+  height: 103px;
+  position: absolute;
+  left: 0px;
+  top: 276px;
   overflow: hidden;
 }
 .footer {
@@ -20,26 +285,26 @@
   top: 947px;
   overflow: hidden;
 }
-.banner-ad-display {
+.banner-ads {
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 501px;
+  width: 513px;
   height: 77px;
   position: absolute;
-  left: 939px;
+  left: 927px;
   top: 0px;
   overflow: hidden;
 }
-.baner-ad-display {
+.custom-notification-carousel {
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 501px;
+  width: 486px;
   height: 76px;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 20px;
+  top: 1px;
   overflow: hidden;
 }
 .company-title {
@@ -53,305 +318,9 @@
   top: 15px;
   overflow: hidden;
 }
-.register-form-container {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 783px;
-  height: 662px;
-  position: absolute;
-  left: 329px;
-  top: 181px;
-  overflow: hidden;
-}
-.submit-button {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 204px;
-  height: 58px;
-  position: absolute;
-  left: 470px;
-  top: 577px;
-  overflow: hidden;
-}
-.clear-button {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 204px;
-  height: 58px;
-  position: absolute;
-  left: 111px;
-  top: 577px;
-  overflow: hidden;
-}
-.register-form {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 711px;
-  height: 528px;
-  position: absolute;
-  left: 36px;
-  top: 34px;
-  overflow: hidden;
-}
-.form-header {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 281px;
-  height: 42px;
-  position: absolute;
-  left: 215px;
-  top: 10px;
-  overflow: hidden;
-}
-.password-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 346px;
-}
-.password-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.password-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.confirm-password-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 402px;
-}
-.confirm-password-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.confirm-password-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.surname-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 178px;
-}
-.surname-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.surname-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.already-have-an-account {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 248px;
-  height: 42px;
-  position: absolute;
-  left: 97px;
-  top: 458px;
-  overflow: hidden;
-}
-.register-with-google {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 248px;
-  height: 42px;
-  position: absolute;
-  left: 365px;
-  top: 458px;
-  overflow: hidden;
-}
-.cell-number-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 290px;
-}
-.cell-number-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.cell-number-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.name-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 122px;
-}
-.name-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.name-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.email-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 234px;
-}
-.email-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.email-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.username-entry {
-  width: 565px;
-  height: 42px;
-  position: absolute;
-  left: 73px;
-  top: 66px;
-}
-.username-input {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 317px;
-  height: 42px;
-  position: absolute;
-  left: 248px;
-  top: 0px;
-  overflow: hidden;
-}
-.username-label {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 199px;
-  height: 42px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.sign-in-options {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 281px;
-  height: 78px;
-  position: absolute;
-  left: 1159px;
-  top: 0px;
-  overflow: hidden;
-}
-.register-header {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 751px;
-  height: 78px;
-  position: absolute;
-  left: 329px;
-  top: 0px;
-  overflow: hidden;
-}
+
+
+
+
+
+
